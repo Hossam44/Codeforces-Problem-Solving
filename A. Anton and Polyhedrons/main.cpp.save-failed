@@ -1,0 +1,99 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n=150000,m,b=0;
+    char arr[n][13];
+    char arr1[50000][13];
+    cin>>m;
+    if(m>n)
+    {
+        for(int i=0;i<m-n;i++)
+        {
+            cin>>arr1[i];
+        }
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i][0]=='T')
+        {
+            b+=4;
+        }
+        else if(arr[i][0]=='I')
+        {
+            b+=20;
+        }
+        else if(arr[i][0]=='D')
+        {
+            b+=12;
+        }
+        else if(arr[i][0]=='O')
+        {
+            b+=8;
+        }
+        else
+        {
+            b+=6;
+        }
+    }
+    for(int i=0;i<m-n;i++)
+    {
+        if(arr1[i][0]=='T')
+        {
+            b+=4;
+        }
+        else if(arr1[i][0]=='I')
+        {
+            b+=20;
+        }
+        else if(arr1[i][0]=='D')
+        {
+            b+=12;
+        }
+        else if(arr1[i][0]=='O')
+        {
+            b+=8;
+        }
+        else
+        {
+            b+=6;
+        }
+    }
+    else
+    {
+        for(int i=0;i<m;i++)
+    {
+        cin>>arr[i];
+    }
+            for(int i=0;i<m;i++)
+    {
+        if(arr[i][0]=='T')
+        {
+            b+=4;
+        }
+        else if(arr[i][0]=='I')
+        {
+            b+=20;
+        }
+        else if(arr[i][0]=='D')
+        {
+            b+=12;
+        }
+        else if(arr[i][0]=='O')
+        {
+            b+=8;
+        }
+        else
+        {
+            b+=6;
+        }
+    }
+    }
+    cout<<b;
+    return 0;
+}

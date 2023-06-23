@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1574972655 source:d:\g\tests\c. woodcutters\main.cpp
+	<iostream>
+	<vector>
+

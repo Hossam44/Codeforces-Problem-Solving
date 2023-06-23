@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1556135883 source:c:\users\hossam\desktop\a. dragons\main.cpp
+	<iostream>
+	<stdlib.h>
+

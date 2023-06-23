@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565874865 source:g:\tests\b.regular bracket sequence\main.cpp
+	<iostream>
+	<cstring>
+

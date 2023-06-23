@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583012497 source:e:\g\tests\d. little elephant and cards\main.cpp
+	<iostream>
+	<map>
+	<stdlib.h>
+

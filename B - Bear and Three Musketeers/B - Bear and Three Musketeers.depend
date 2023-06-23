@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1596462716 source:d:\c++\tests\b - bear and three musketeers\main.cpp
+	<iostream>
+	<string>
+	<map>
+	<queue>
+	<vector>
+	<algorithm>
+	<set>
+	<stdlib.h>
+

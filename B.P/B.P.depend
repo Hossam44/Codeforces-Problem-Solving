@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1568730148 source:d:\g\tests\b.p\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstring>
+	<cstdio>
+	<sstream>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string>
+	<iomanip>
+	<cstring>
+	<cstdio>
+	<sstream>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+

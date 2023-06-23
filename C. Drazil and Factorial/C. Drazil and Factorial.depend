@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576384841 source:e:\g\tests\c. drazil and factorial\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

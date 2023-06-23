@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1555684086 source:c:\users\hossam\desktop\a. pangram\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+

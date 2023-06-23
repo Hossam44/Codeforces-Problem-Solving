@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576354812 source:e:\g\tests\c. divisibility by eight\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

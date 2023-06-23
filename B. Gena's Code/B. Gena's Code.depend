@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1568394232 source:e:\b. gena's code\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

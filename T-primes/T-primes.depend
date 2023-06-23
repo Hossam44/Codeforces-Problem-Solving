@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585112555 source:e:\g\tests\t-primes\main.cpp
+	<iostream>
+	<math.h>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587892212 source:e:\g\tests\d. constant palindrome sum\main.cpp
+	<iostream>
+	<set>
+

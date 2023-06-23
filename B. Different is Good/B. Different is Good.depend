@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1568866468 source:d:\g\tests\b. different is good\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    int n,s,v;
+    string arr,ar;
+    cin>>n>>arr;
+    if(n%2!=0){
+    s=n/2;
+    v=n/2;
+    ar[s]=arr[0];
+    cout<<ar[s]<<endl;
+    for(int i=1;i<n;i++)
+    {
+        if(i%2!=0)
+        {
+            ar[--s]=arr[i];
+        }
+        else
+        {
+            ar[++v]=arr[i];
+        }
+    }
+    for(int i=0;i<n;i++)
+    {
+        cout<<ar[i];
+    }
+    }
+    else
+    {
+    s=(n/2)-1;
+    v=(n/2)-1;
+    ar[s]=arr[0];
+    for(int i=1;i<n;i++)
+    {
+        if(i%2!=0)
+        {
+            ar[++s]=arr[i];
+        }
+        else
+        {
+            ar[--v]=arr[i];
+        }
+    }
+    for(int i=0;i<n;i++)
+    {
+        cout<<ar[i];
+    }
+    }
+
+    return 0;
+}

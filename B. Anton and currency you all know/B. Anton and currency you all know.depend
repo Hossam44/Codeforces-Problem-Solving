@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1573307223 source:d:\g\tests\b. anton and currency you all know\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	<algorithm>
+

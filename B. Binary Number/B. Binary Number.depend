@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573422243 source:d:\g\tests\b. binary number\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

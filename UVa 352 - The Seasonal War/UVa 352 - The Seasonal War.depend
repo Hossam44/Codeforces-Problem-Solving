@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1594514730 source:d:\c++\tests\uva 352 - the seasonal war\main.cpp
+	<iostream>
+	<vector>
+

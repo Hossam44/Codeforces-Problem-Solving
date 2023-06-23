@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,m,c,t;
+    int arr[100];
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    m=arr[0];
+    c=0;
+    for(int i=1;i<n;i++)
+    {
+        if(arr[i]>m)
+        {
+            m=arr[i];
+            c=i;
+        }
+    }
+    t=arr[0];
+    arr[0]=arr[c];
+    arr[c]=t;
+    t=c;
+    m=arr[0];
+    c=0;
+    for(int i=1;i<n;i++)
+    {
+        if(arr[i]<=m)
+        {
+            m=arr[i];
+            c=i;
+        }
+    }
+    t+=n-1-c;
+    cout<<t<<endl;
+    return 0;
+}

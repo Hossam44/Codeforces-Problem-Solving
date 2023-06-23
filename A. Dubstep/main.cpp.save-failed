@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main()
+{
+    int n;
+    char arr[201];
+    char arr1[201];
+    cin>>arr;
+    n=strlen(arr);
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]=='W'&&arr[i+1]=='U'&&arr[i+2]=='B')
+        {
+                                                            /*            if(i!=0)
+                                                                                   arr1[i]=char(0);*/
+            i+=3;
+        }
+        else
+        {
+            arr1[i]=arr[i];
+        }
+    }
+    cout<<arr1;
+    return 0;
+}

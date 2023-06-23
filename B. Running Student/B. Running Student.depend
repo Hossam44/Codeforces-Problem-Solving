@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1573319899 source:d:\g\tests\b. running student\main.cpp
+	<iostream>
+	<stdlib.h>
+	<deque>
+	<cmath>
+	<algorithm>
+

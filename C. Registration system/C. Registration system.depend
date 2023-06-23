@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574644289 source:d:\g\tests\c. registration system\main.cpp
+	<iostream>
+	<map>
+	<string>
+

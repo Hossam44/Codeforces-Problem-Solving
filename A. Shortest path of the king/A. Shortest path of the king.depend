@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1595406207 source:d:\c++\tests\a. shortest path of the king\main.cpp
+	<iostream>
+	<string>
+	<map>
+	<queue>
+	<vector>
+	<algorithm>
+	<set>
+	<stdlib.h>
+

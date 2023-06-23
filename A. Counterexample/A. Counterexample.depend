@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562823350 source:g:\tests\a. counterexample\main.cpp
+	<iostream>
+	<stdlib.h>
+

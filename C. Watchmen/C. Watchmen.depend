@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1578868165 source:c:\users\hossam metwally\desktop\c. watchmen\main.cpp
+	<iostream>
+	<map>
+	<algorithm>
+

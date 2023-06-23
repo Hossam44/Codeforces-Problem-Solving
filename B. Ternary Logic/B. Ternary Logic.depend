@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1570211553 source:d:\g\tests\b. ternary logic\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1571483945 source:d:\g\tests\b. petya and staircases\main.cpp
+	<iostream>
+	<algorithm>
+	<stdlib.h>
+
